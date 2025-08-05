@@ -1,0 +1,30 @@
+package lab3;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		int number = getInt("Enter an integer: ");
+		String text = getString("Enter a string: ");
+
+		System.out.println("You entered integer: " + number);
+		System.out.println("You entered string: " + text);
+	}
+
+	public static int getInt(String prompt) {
+
+		Scanner s = new Scanner(System.in);
+		System.out.print(prompt);
+		return s.nextInt();
+	}
+
+	public static String getString(String prompt) {
+
+		Scanner s = new Scanner(System.in);
+		System.out.print(prompt);
+		return s.nextLine();
+	}
+
+}

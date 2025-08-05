@@ -1,0 +1,48 @@
+package lab3;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		theLunchQueue();
+	}
+
+	// Comment out block from Part 1
+	/*
+	 * int number = getInt("Enter a number: "); String text =
+	 * getString("Enter a string: ");
+	 * 
+	 * System.out.println("You entered number: " + number);
+	 * System.out.println("You entered string: " + text); }
+	 */
+
+	public static int getInt(String prompt) {
+
+		Scanner s = new Scanner(System.in);
+		System.out.printf(prompt);
+		return s.nextInt();
+	}
+
+	public static String getString(String prompt) {
+
+		Scanner s = new Scanner(System.in);
+		System.out.printf(prompt);
+		return s.nextLine();
+	}
+	
+	public static void theLunchQueue() {
+		// 1. Ask for main dish
+		String mainCourse = getString("What main dish would you like(Fish, Burger or Veg)?: ");
+		
+		// 2. Ask for number of sides
+		int potatoes = getInt("How many roast potatoes would you like?: ");
+		int sprouts = getInt("How many Brussel Sprouts would you like?: ");
+		
+		// 3. Display order
+		System.out.println(
+				"Hellom your lunch is " + mainCourse + " with " + potatoes + " roast potatoes and " + sprouts + " Brussel Sprouts.");
+	}
+
+}

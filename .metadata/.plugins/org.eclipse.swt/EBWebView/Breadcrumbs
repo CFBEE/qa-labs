@@ -1,0 +1,49 @@
+21:10:31 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+21:10:31 Microsoft.Shutdown.TabStripModel.CloseAllTabs
+21:10:31 Microsoft.Shutdown.TabStripModel.CloseTabs
+21:10:31 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+21:10:31 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+21:10:31 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+21:10:31 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+21:10:31 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+21:10:31 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+21:10:31 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+21:10:31 Tab28 RenderProcessGone
+21:10:31 Microsoft.UnloadController.ClearUnloadState
+21:10:31 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+21:10:31 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+21:10:31 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+21:10:31 Microsoft.UnloadController.ClearUnloadState
+21:10:31 Browser28 Close Tab28 at 0
+21:10:31 Tab28 WebContentsDestroyed
+21:10:31 Microsoft.UnloadController.TabStripEmpty
+21:10:31 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+21:10:31 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+21:10:31 Microsoft.Shutdown.OnWindowClosing
+21:10:31 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+21:10:31 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+21:10:31 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+21:10:31 Widget Closed: BrowserFrame
+21:10:31 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+21:10:31 Microsoft.Shutdown.OnWindowClosing
+21:10:31 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+21:10:31 Microsoft.Browser_Removed
+21:13:46 Microsoft.NewBrowser_Popup
+21:13:46 Microsoft.BrowserList.AddBrowser
+21:13:46 Browser30 Insert active Tab30 at 0
+21:13:46 Tab30 StartNav302 #auto_toplevel
+21:13:46 Tab30 StartNav303 #typed
+21:13:46 Tab30 FinishNav302
+21:13:46 Tab30 PageLoad
+21:13:46 Tab30 FinishNav303
+21:13:46 Tab30 PageLoad
+21:13:46 Tab30 StartNav304 #typed
+21:13:46 Tab30 FinishNav304
+21:13:46 Tab30 PageLoad
+21:13:48 Tab30 StartNav305 #typed
+21:13:48 Tab30 FinishNav305
+21:13:48 Tab30 PageLoad
+21:13:49 Tab30 StartNav306 #typed
+21:13:49 Tab30 FinishNav306
+21:13:49 Tab30 PageLoad
+21:20:25 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp

@@ -8,7 +8,7 @@ public class Program {
 
 		int[] numbers = { 1, 3, -5, 7, 0, 4, 6, 8 };
 		String[] names = { "Bob", "Conor", "Richard", "Hannah", "Grace" };
-		int[] marks = { 2, 95, 75, 60, 52 };
+		int[] marks = { 102, 95, 75, 60, 52 };
 
 		// Write Tasks without built-in commands
 		// Task 1: Write code to find the sum of every number in the array
@@ -51,9 +51,8 @@ public class Program {
 		System.out.println("Task 5 - Index of 0: " + zeroIndex);
 
 		// Part 2 - Calculate Student Grades
-		for (int i = 0; i < marks.length; i++) {
-			String grade = getGrade(marks[i]);
-			System.out.println(names[i] + ": " + grade);
+		for (int i = 0; i < names.length; i++) {
+			System.out.println(names[i] + ": " + getGrade(marks[i]));
 		}
 	}
 

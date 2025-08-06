@@ -12,6 +12,8 @@ public class Ball {
 	private int dirX, dirY;
 	private Color color;
 
+	// Allows for adjusting world size in Game.java
+
 	public static void setWorld(int w, int h) {
 		worldW = w;
 		worldH = h;

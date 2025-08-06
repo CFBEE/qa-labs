@@ -19,6 +19,7 @@ public class Game extends Canvas {
 		balls[0] = new Ball(12, 11, 50, 50, 5, 5, Color.RED);
 		balls[1] = new Ball(40, 100, 30, 30, 10, 5, Color.GREEN);
 		balls[2] = new Ball(40, 100, 80, 30, 7, 15, Color.BLUE);
+		Ball.setWorld(300, 300);
 
 		JFrame frame = new JFrame("Bouncing Balls");
 		this.setSize(400, 400);
@@ -26,8 +27,7 @@ public class Game extends Canvas {
 		frame.pack();
 		frame.setVisible(true);
 
-		Ball.setWorld(300, 300);
-
+		
 		Timer timer = new Timer();
 		timer.schedule(new TimerTask() {
 			@Override

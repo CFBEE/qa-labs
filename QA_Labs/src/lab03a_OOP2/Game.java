@@ -5,6 +5,8 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 import javax.swing.JFrame;
@@ -12,18 +14,32 @@ import javax.swing.JFrame;
 public class Game extends Canvas {
 
 // create an array of 3 Shapes 
-	private Shape[] shapes = new Shape[4];
+//	private Shape[] shapes = new Shape[4];
 
-// call this array balls
-	Game() {
-		// using full constructor
-		shapes[0] = new Shape(12, 11, 50, 50, 5, 5, Color.RED, ShapeType.Rectangle);
-		// using overloaded constructor (default blue oval)
-		shapes[1] = new Shape(40, 100, 30, 30);
-		// using new chaining constructor (black circle with specified speed)
-		shapes[2] = new Shape(100, 150, 40, 3, 7);
-		// another example
-		shapes[3] = new Shape(200, 60, 80, 15, 5);
+// Lab 05 - Collections and Generic - Use ArrayList<Shape>
+	private List<Shape> shapes;
+
+// call this array shapes
+	// Comment out previous content
+	/*
+	 * 
+	 * Game() { // using full constructor shapes[0] = new Shape(12, 11, 50, 50, 5,
+	 * 5, Color.RED, ShapeType.Rectangle); // using overloaded constructor (default
+	 * blue oval) shapes[1] = new Shape(40, 100, 30, 30); // using new chaining
+	 * constructor (black circle with specified speed) shapes[2] = new Shape(100,
+	 * 150, 40, 3, 7); // another example shapes[3] = new Shape(200, 60, 80, 15, 5);
+	 * 
+	 */
+
+	// Lab 05 - Add Shape instance dynamically
+	public Game() {
+
+		shapes = new ArrayList<>();
+
+		shapes.add(new Shape(12, 11, 50, 50, 5, 5, Color.RED, ShapeType.Rectangle));
+		shapes.add(new Shape(40, 100, 30, 30)); // default blue oval
+		shapes.add(new Shape(100, 150, 40, 3, 7)); // black circle by chaining
+		shapes.add(new Shape(200, 60, 80, 15, 5)); // another black circle
 
 		Shape.setWorld(300, 300);
 

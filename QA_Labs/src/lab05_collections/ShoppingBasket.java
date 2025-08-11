@@ -14,8 +14,8 @@ public class ShoppingBasket {
 		StringBuilder sb = new StringBuilder();
 		sb.append("Shopping Basket: \n");
 		for (ShoppingBasketItem item : items) {
-			sb.append(" - ").append(item.getDetails()).append("\n");
-		}
+            sb.append(" - ").append(item.getDetails()).append("\n");
+        }
 		return sb.toString();
 	}
 

@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/QA_Labs/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/QA_Labs/src/lab05_collections" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="openjdk-24" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -1,0 +1,28 @@
+Program started
+Winner: Dave (lane 2) – travelled 1002 m
+
+Total vehicles created: 3
+Program started
+Winner: Mike (lane 3) – travelled 1002 m
+
+Total vehicles created: 3
+Program started
+Total vehicles created: 3
+Program started
+Winner: Dave (lane 2) – travelled 1005 m
+
+Total vehicles created: 3
+Program started
+Winner: Mike (lane 3) – travelled 1004 m
+
+Total vehicles created: 3
+Program started
+Program started
+Program started
+Program started
+Program started
+Winner: Driver4 (lane 4) – travelled 1002 m
+
+Total vehicles created: 11
+Program started
+Total vehicles created: 11

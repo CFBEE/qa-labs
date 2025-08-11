@@ -8,7 +8,7 @@ public class Vehicle {
 	private int distanceTravelled;
 	private RegistrationPlate registrationPlate;
 
-	public Vehicle(int speed, int lane) {
+	public Vehicle(int speed, int lane) throws OutOfPlatesException {
 		this.speed = speed;
 		this.lane = lane;
 		this.distanceTravelled = 0;

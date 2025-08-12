@@ -1,6 +1,6 @@
 package lab06_Exceptions;
 
-public class Account {
+public class Account implements Comparable<Account> {
     private int id;
     private double balance;
     private String owner;
@@ -30,5 +30,10 @@ public class Account {
 
     public String getDetails() {
         return "Account ID: " + id + ", Owner: " + owner + ", Balance: £ " + String.format("%.2f", balance);
+    }
+
+    @Override
+    public int compareTo(Account other) {
+        return (int)(this.balance - other.balance);
     }
 }

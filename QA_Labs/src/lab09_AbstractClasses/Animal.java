@@ -1,8 +1,11 @@
 package lab09_AbstractClasses;
 
-public abstract class Animal {
+public abstract class Animal implements Moveable{
     public AnimalType animalType;
     private String name;
+
+    @Override
+    public abstract void move();
 
     public Animal(String name) {
         if (name == null || name.isBlank()) {

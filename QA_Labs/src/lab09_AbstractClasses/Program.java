@@ -24,6 +24,13 @@ public class Program {
             if (animal instanceof Invertebrate i) {
                 i.crawl();
             }
+            if (animal instanceof Flyable fl) {
+                fl.fly();
+            }
+            if (animal instanceof Swimmable s) {
+                s.swimming();
+            }
+
 
             System.out.println("---");
         }

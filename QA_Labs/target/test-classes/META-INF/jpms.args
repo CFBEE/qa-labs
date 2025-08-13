@@ -1,0 +1,4 @@
+--patch-module
+QA_Labs=_
+--add-reads
+QA_Labs=ALL-UNNAMED

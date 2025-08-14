@@ -5,9 +5,8 @@ public class Security {
 
         String errorMessage;
 
-// userId must not be null or spaces. Must be 8 chars minimum.
-// password must contain a digit and an upper case char
-
+        // userId must not be null or spaces. Must be 8 chars minimum.
+        // password must contain a digit and an upper case char
         if (userId == null || userId.trim().equals("")) {
             errorMessage = "UserID may not be null or empty";
             return false;

@@ -7,5 +7,7 @@ public abstract class Bird extends Animal {
         this.animalType = AnimalType.Bird;
     }
 
+    public abstract void move();
+
     public abstract void makeNest();
 }

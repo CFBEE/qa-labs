@@ -1,6 +1,6 @@
-package main.java.lab09_AbstractClasses;
+package lab09_AbstractClasses;
 
-public class Duck extends Bird implements Flyable, Swimmable {
+public class Duck extends main.java.lab09_AbstractClasses.Bird implements main.java.lab09_AbstractClasses.Flyable, main.java.lab09_AbstractClasses.Swimmable {
 
     public Duck(String name) {
         super(name);

@@ -1,15 +1,15 @@
-package main.java.lab09_AbstractClasses;
+package lab09_AbstractClasses;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Program {
     public static void main(String[] args) {
-        List<Animal> animals = new ArrayList<>();
+        List<main.java.lab09_AbstractClasses.Animal> animals = new ArrayList<>();
         animals.add(new Duck("Daffy"));
-        animals.add(new Penguin("Happy Feet"));
-        animals.add(new Fish("Nemo"));
-        animals.add(new Invertebrate("Colin"));
+        animals.add(new main.java.lab09_AbstractClasses.Penguin("Happy Feet"));
+        animals.add(new main.java.lab09_AbstractClasses.Fish("Nemo"));
+        animals.add(new main.java.lab09_AbstractClasses.Invertebrate("Colin"));
 
 
         for (Animal animal : animals) {
